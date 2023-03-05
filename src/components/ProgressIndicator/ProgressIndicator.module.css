@@ -1,0 +1,40 @@
+.indicatorContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  z-index: -1;
+}
+
+.outsideShape {
+    width: 100%;
+    height: 100%;
+    background: black;
+}
+
+.insideShape {
+    color: white;
+}
+
+.metrics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+
+  font-family: var(--font-mono);
+}
+
+.downloadProgress {
+  padding: 0 16px;
+  border-bottom: 1px solid #ccc;
+
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+
+.downloadSpeed {
+  font-size: 12px;
+}
